@@ -118,7 +118,7 @@ export default function Home() {
           style={{marginLeft: '1%'}}
           onChange={() => setAutomatic(!automatic)}
           thumbColor={automatic ? theme.primary : theme.primary}
-          trackColor={{false: theme.secondary, true: theme.secondary}}
+          trackColor={{false: theme.backgroundColorSecondary, true: theme.primary}}
         />
       </View>
       <Text style={{fontSize: RFPercentage(3), color: theme.primary, alignSelf: 'center'}}>Delay (Automático)</Text>

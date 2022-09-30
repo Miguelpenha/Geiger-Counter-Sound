@@ -26,7 +26,7 @@ function Settings() {
                     <Switch
                         value={dark}
                         thumbColor={dark ? theme.primary : theme.primary}
-                        trackColor={{false: theme.secondary, true: theme.secondary}}
+                        trackColor={{false: theme.backgroundColorSecondary, true: theme.primary}}
                         onChange={() => {
                             dark ? setDark(false) : setDark(true)
                             

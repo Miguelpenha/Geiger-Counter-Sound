@@ -2,22 +2,22 @@ import { Itheme, ThemeNameType } from '../types'
 
 export const dark: Itheme = {
     name: 'dark',
-    backgroundColor: '#0a192f',
-    secondary: '#8892b0',
-    secondaryColor: '#8892b0',
-    primary: '#43cdf5',
-    color: '#dce3ff',
-    backgroundColorSecondary: '#0f2749'
+    backgroundColor: '#061404',
+    secondary: '#88b08e',
+    secondaryColor: '#88b08e',
+    primary: '#43f546',
+    color: '#dcffdd',
+    backgroundColorSecondary: '#13350e'
 }
 
 export const light: Itheme = {
     name: 'light',
-    backgroundColor: '#e8f2f5',
-    secondary: '#8892b0',
-    secondaryColor: '#8892b0',
-    primary: '#43cdf5',
+    backgroundColor: '#e8f5e9',
+    secondary: '#88b08e',
+    secondaryColor: '#88b08e',
+    primary: '#43f546',
     color: '#e8f2f5',
-    backgroundColorSecondary: '#dbe4e7'
+    backgroundColorSecondary: '#c7e2c9'
 }
 
 export default {
